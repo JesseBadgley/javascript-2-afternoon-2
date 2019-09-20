@@ -88,7 +88,15 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 
 //Code Here
 
+function evenFinder(nums){
+let answer = []
+  for (let i = 0; i < nums.lenth; i++) {
+  if (i % 2 === 0) { 
+    return answer.unshift(nums[i]);
+  }
+}
 
+}
 
 
 
